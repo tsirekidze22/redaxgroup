@@ -1,0 +1,20 @@
+/* app/globals.css */
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
