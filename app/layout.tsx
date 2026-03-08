@@ -14,6 +14,28 @@ export const metadata: Metadata = {
   title: "RedaxGroup - სარემონტო მომსახურება თბილისში",
   description:
     "RedaxGroup - საიმედო სარემონტო მომსახურება, ინტერიერის დიზაინი და ავეჯის დამზადება თბილისში",
+  openGraph: {
+    title: "RedaxGroup - სარემონტო მომსახურება თბილისში",
+    description:
+      "RedaxGroup - საიმედო სარემონტო მომსახურება, ინტერიერის დიზაინი და ავეჯის დამზადება თბილისში",
+    images: [
+      {
+        url: "/assets/icons/logo.jpg",
+        width: 800,
+        height: 800,
+        alt: "RedaxGroup Logo",
+      },
+    ],
+    type: "website",
+    locale: "ka_GE",
+  },
+  twitter: {
+    card: "summary",
+    title: "RedaxGroup - სარემონტო მომსახურება თბილისში",
+    description:
+      "RedaxGroup - საიმედო სარემონტო მომსახურება, ინტერიერის დიზაინი და ავეჯის დამზადება თბილისში",
+    images: ["/assets/icons/logo.jpg"],
+  },
 };
 
 export default function RootLayout({

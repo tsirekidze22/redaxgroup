@@ -11,8 +11,15 @@ export default function Header() {
     <header className="bg-[#28292c] text-white sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold">
-          RedaxGroup
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/assets/icons/logo.jpg"
+            alt="RedaxGroup"
+            width={140}
+            height={140}
+            className="h-12 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}
