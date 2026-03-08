@@ -17,7 +17,7 @@ export default function Header() {
             alt="RedaxGroup"
             width={140}
             height={140}
-            className="h-12 w-auto object-contain"
+            className="h-12 w-auto object-contain rounded-full"
             priority
           />
         </Link>
